@@ -1,0 +1,22 @@
+name: interactive_arabic_chat_example
+description: Example app for Interactive Arabic Chat Roleplay package
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Local package
+  interactive_arabic_chat_roleplay:
+    path: ../
+  
+  # Required dependencies
+  flutter_riverpod: ^2.5.1
+  flutter_dotenv: ^5.2.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env

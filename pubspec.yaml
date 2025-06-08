@@ -1,0 +1,44 @@
+name: interactive_arabic_chat_roleplay
+description: A Flutter package for Arabic learning through AI-powered roleplay conversations with level 2 dynamic interaction
+version: 0.0.1
+homepage: https://github.com/yourusername/interactive_arabic_chat_roleplay
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP client for API calls
+  http: ^1.4.0
+  
+  # JSON serialization
+  json_annotation: ^4.8.1
+  
+  # State management
+  flutter_riverpod: ^2.5.1
+  
+  # Utilities
+  uuid: ^4.5.1
+  intl: ^0.19.0
+  
+  # Logging
+  logger: ^2.5.0
+  
+  # Environment variables
+  flutter_dotenv: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
+  
+  # Testing
+  mockito: ^5.4.4
+  
+flutter:
+  uses-material-design: true
